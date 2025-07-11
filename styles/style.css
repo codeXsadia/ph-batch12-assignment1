@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: "Raleway", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --primary-color: #4E47FF;
@@ -83,6 +84,7 @@ header{
     font-size: 40px;
 
 }
+/* live launch section */
 .action{
     padding: 60px 300px;
     display: flex;
@@ -92,16 +94,45 @@ header{
 .live-launch{
     padding: 1rem;
 }
-.live-img{
+.live-img img{
     border-radius: 20px;
     display: block;
     height: auto;
 }
 .live-launch h4{
-    margin-bottom: 2rem;
-    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
 }
 .live-launch p{
     color: var(--second-color);
     margin-bottom: 1rem;
 }
+/* productive user */
+.user-dashb{
+    max-width: 1300px;
+    margin: 2rem auto;
+    background-color: #E5E7FF;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+}
+.user-dashb h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.dashb{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+   
+}
+.dashb div h1{
+     font-family: "Inter", sans-serif;
+     color: var(--primary-color);
+     font-size: 5rem;
+     margin-bottom: 1.5rem;
+}
+/* user input */
