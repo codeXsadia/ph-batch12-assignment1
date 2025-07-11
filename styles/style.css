@@ -79,3 +79,29 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.txt-style2{
+    font-size: 40px;
+
+}
+.action{
+    padding: 60px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.live-launch{
+    padding: 1rem;
+}
+.live-img{
+    border-radius: 20px;
+    display: block;
+    height: auto;
+}
+.live-launch h4{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+.live-launch p{
+    color: var(--second-color);
+    margin-bottom: 1rem;
+}
